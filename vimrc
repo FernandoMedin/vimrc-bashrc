@@ -17,13 +17,11 @@ Plugin 'dbext.vim'
 Plugin 'tpope/vim-surround'
 
 "Colorschemes"
-Plugin 'tomasr/molokai'
-Plugin 'sjl/badwolf'
 Plugin 'jpo/vim-railscasts-theme'
 Plugin 'w0ng/vim-hybrid'
 Plugin 'cocopon/iceberg.vim'
-Plugin 'nanotech/jellybeans.vim'
-Plugin 'jnurmine/Zenburn'
+
+Plugin 'smeggingsmegger/vim-colorschemes'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
