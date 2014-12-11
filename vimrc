@@ -20,7 +20,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'jpo/vim-railscasts-theme'
 Plugin 'w0ng/vim-hybrid'
 Plugin 'cocopon/iceberg.vim'
-
+Plugin 'cesardeazevedo/Fx-ColorScheme'
 Plugin 'smeggingsmegger/vim-colorschemes'
 
 call vundle#end()            " required
