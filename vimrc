@@ -41,4 +41,5 @@ let NERDTreeDirArrows=0
 syntax enable
 set guioptions-=m
 set guioptions-=T
-colorscheme iceberg
+colorscheme fx
+set background=dark
