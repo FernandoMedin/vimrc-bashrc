@@ -15,6 +15,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'dbext.vim'
 Plugin 'tpope/vim-surround'
+Plugin 'bling/vim-airline'
+Plugin 'scrooloose/nerdcommenter'
 
 "Colorschemes"
 Plugin 'jpo/vim-railscasts-theme'
