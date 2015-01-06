@@ -45,3 +45,10 @@ set guioptions-=m
 set guioptions-=T
 colorscheme fx
 set background=dark
+
+map <F5> :set filetype=python<CR>
+map <F6> :set filetype=html<CR>
+map <F7> :set filetype=sql<CR>
+map <F8> :set filetype=c<CR>
+
+map <F2> :%s/^M//<CR>
