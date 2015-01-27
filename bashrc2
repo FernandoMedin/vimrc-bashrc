@@ -1,6 +1,6 @@
 [ -z "$PS1" ] && return
 
-export PS1="\[\e[00;37m\]\u@[\[\e[0m\]\[\e[00;31m\]\w\[\e[0m\]\[\e[00;37m\]] ~> \[\e[0m\]"
+export PS1="\[\e[00;37m\]\u@[\[\e[0m\]\[\e[00;31m\]\w\[\e[0m\]\[\e[00;37m\]]:~> \[\e[0m\]"
 
 alias l='ls -CF'
 alias ls='ls -hF --color'    # add colors for filetype recognition
@@ -14,9 +14,10 @@ alias ll='ls -l'        # long listing
 alias lsize='ls --sort=size -lhr' # list by size
 alias lsd='ls -l | grep "^d"'   #list only directories
 alias lalf='ls -alF'
-alias acyl='cd ~/.icons/ACYL_Icon_Theme_0.9.3/ && bash AnyColorYouLike'
 alias reboot='sudo shutdown -r now'
 alias shutdown='sudo shutdown -h now'
+alias zzr='zopectl restart'
+alias zzs='zopectl start'
 
 alias h='history | grep $1'
 alias rm='rm -i'
