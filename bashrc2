@@ -18,6 +18,7 @@ alias reboot='sudo shutdown -r now'
 alias shutdown='sudo shutdown -h now'
 alias zzr='zopectl restart'
 alias zzs='zopectl start'
+alias fucking='sudo'
 
 alias h='history | grep $1'
 alias rm='rm -i'
